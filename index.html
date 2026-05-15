@@ -169,14 +169,15 @@
   <h1>Coursera Learning Path</h1>
   <p class="intro">
     Built for a CPIM-certified Master Scheduler in aerospace manufacturing — from Airbus-designed foundations
-    through supply chain, Lean Six Sigma, AI for operations, and management leadership over ~22 months.
+    through supply chain, Yellow Belt, AI for operations, management leadership, and culminating
+    in ASQ-accredited Green Belt certification over ~29 months.
   </p>
 
   <div class="stats-row">
-    <div class="stat-box"><div class="stat-num">7</div><div class="stat-label">Phases</div></div>
-    <div class="stat-box"><div class="stat-num">16</div><div class="stat-label">Courses &amp; Certs</div></div>
-    <div class="stat-box"><div class="stat-num">6</div><div class="stat-label">Specializations</div></div>
-    <div class="stat-box"><div class="stat-num">~22</div><div class="stat-label">Months</div></div>
+    <div class="stat-box"><div class="stat-num">8</div><div class="stat-label">Phases</div></div>
+    <div class="stat-box"><div class="stat-num">19</div><div class="stat-label">Courses &amp; Certs</div></div>
+    <div class="stat-box"><div class="stat-num">9</div><div class="stat-label">Specializations</div></div>
+    <div class="stat-box"><div class="stat-num">~29</div><div class="stat-label">Months</div></div>
   </div>
 
   <div id="phases"></div>
@@ -193,8 +194,8 @@
         <p class="tip-body">With 7 specializations and multiple standalone courses, Coursera Plus pays for itself quickly. Self-paced access across everything is ideal when you're balancing a demanding job and a newborn at home.</p>
       </div>
       <div class="tip-card">
-        <p class="tip-heading">Green Belt + CPIM = rare combo in aerospace</p>
-        <p class="tip-body">Lean Six Sigma Green Belt combined with CPIM is uncommon and valuable in manufacturing. Add AI skills and P6 on top and you're positioned for senior planner, ops manager, or digital transformation lead roles.</p>
+        <p class="tip-heading">Green Belt is saved for last — intentionally</p>
+        <p class="tip-body">Green Belt is placed at the end so you bring your full toolkit to it — SCM, AI, Yellow Belt, and leadership experience all make you a stronger Green Belt candidate. Finishing with the ASQ CSSGB gives you the most recognized quality credential in manufacturing, and combined with CPIM it's an exceptionally rare combination in aerospace.</p>
       </div>
       <div class="tip-card">
         <p class="tip-heading">AI is already reshaping your job — get ahead of it</p>
@@ -300,13 +301,13 @@ const phases = [
   {
     id: 4,
     label: "Phase 4",
-    title: "Lean & Six Sigma",
-    duration: "Months 10–14",
+    title: "Lean & Six Sigma — Yellow Belt",
+    duration: "Months 10–13",
     bg: "rgba(110,47,10,0.20)",
     headerBg: "rgba(110,47,10,0.32)",
     accent: "#E0893A",
     icon: "📐",
-    description: "Build quality and process improvement credentials. Progress through the belt levels with a manufacturing focus — directly applicable to aerospace production environments.",
+    description: "Build your Lean Six Sigma foundation at the Yellow Belt level, then pursue the ASQ CSSYB — the accredited industry credential. Green Belt follows as the final phase of the roadmap after you've accumulated all other skills.",
     courses: [
       {
         title: "Lean Six Sigma Yellow Belt: Apply, Analyze & Improve Quality",
@@ -315,18 +316,28 @@ const phases = [
         type: "Course",
         duration: "~4 weeks",
         star: false,
-        why: "Start here — introduces DMAIC, root cause analysis, and basic statistical tools. Lays the foundation before advancing to Green Belt.",
+        why: "Start here — introduces DMAIC, root cause analysis, and basic statistical tools. Lays the foundation before advancing to the ASQ Yellow Belt exam prep.",
         skills: ["DMAIC","Root Cause Analysis","Process Mapping","Basic Statistics"]
       },
       {
-        title: "Lean Six Sigma Green Belt Specialization",
+        title: "Six Sigma Yellow Belt Specialization",
         provider: "University System of Georgia / Kennesaw State",
-        url: "https://www.coursera.org/specializations/six-sigma-green-belt",
+        url: "https://www.coursera.org/specializations/six-sigma-fundamentals",
         type: "Specialization",
-        duration: "3–5 months",
+        duration: "3–4 months",
+        star: false,
+        why: "The full Kennesaw Yellow Belt specialization — covers all four Yellow Belt courses including DMAIC phases, process analysis, and a capstone project. Builds the rigorous knowledge base needed before tackling the ASQ exam. Note: completion alone does not grant professional accreditation.",
+        skills: ["DMAIC","Process Analysis","Data Collection","Statistical Fundamentals","Project Charter","Process Mapping","Lean Tools"]
+      },
+      {
+        title: "ASQ-Certified Six Sigma Yellow Belt (CSSYB) Exam Prep Specialization",
+        provider: "SkillUp (via Coursera)",
+        url: "https://www.coursera.org/specializations/asq-certified-six-sigma-yellow-belt-exam-prep",
+        type: "Specialization",
+        duration: "~3 months",
         star: true,
-        why: "The most rigorous LSS program on Coursera. Covers SPC, hypothesis testing, Minitab, FMEA, and Kaizen — directly applicable to aerospace manufacturing quality systems.",
-        skills: ["Statistical Process Control","Hypothesis Testing","Minitab","FMEA","Kaizen","Value Stream Mapping"]
+        why: "Prepares you directly for the ASQ CSSYB exam — the accredited Yellow Belt credential recognized across manufacturing and aerospace. The ASQ exam is taken separately (~$294 for members). Completing this turns your Coursera training into an industry-recognized designation.",
+        skills: ["ASQ CSSYB Exam Prep","DMAIC Framework","Root Cause Analysis","Lean Methodology","Process Improvement","Quality Fundamentals"]
       }
     ]
   },
@@ -420,7 +431,7 @@ const phases = [
     id: 7,
     label: "Phase 7",
     title: "Integration & Capstone",
-    duration: "Months 21–22",
+    duration: "Months 21–23",
     bg: "rgba(28,40,51,0.30)",
     headerBg: "rgba(28,40,51,0.45)",
     accent: "#8EA9BE",
@@ -446,6 +457,39 @@ const phases = [
         star: false,
         why: "Builds data-driven decision making on top of your ERP and Excel background — regression, optimization, and simulation for operations contexts. Bridges your AI phase with strategic ops leadership.",
         skills: ["Regression Analysis","Optimization","Simulation","Data-Driven Decisions"]
+      }
+    ]
+  },
+  {
+    id: 8,
+    label: "Phase 8",
+    title: "Lean & Six Sigma — Green Belt + ASQ Certification",
+    duration: "Months 23–29",
+    bg: "rgba(80,30,80,0.22)",
+    headerBg: "rgba(80,30,80,0.36)",
+    accent: "#C084FC",
+    icon: "🎖️",
+    description: "The culmination of the roadmap. With all your SCM, AI, leadership, and Yellow Belt knowledge in hand, you're fully prepared to tackle Green Belt — the most valuable quality credential in aerospace manufacturing. Finish with the ASQ CSSGB exam to earn the industry's gold standard accreditation.",
+    courses: [
+      {
+        title: "Lean Six Sigma Green Belt Specialization",
+        provider: "University System of Georgia / Kennesaw State",
+        url: "https://www.coursera.org/specializations/six-sigma-green-belt",
+        type: "Specialization",
+        duration: "3–5 months",
+        star: true,
+        why: "The most rigorous LSS Green Belt program on Coursera. Covers SPC, hypothesis testing, Minitab, FMEA, and Kaizen — directly applicable to aerospace manufacturing quality systems. Your Yellow Belt foundation makes this significantly more approachable. Note: completion alone does not grant professional accreditation.",
+        skills: ["Statistical Process Control","Hypothesis Testing","Minitab","FMEA","Kaizen","Value Stream Mapping","Advanced DMAIC"]
+      },
+      {
+        title: "ASQ-Certified Six Sigma Green Belt (CSSGB) Exam Prep Specialization",
+        provider: "SkillUp (via Coursera)",
+        url: "https://www.coursera.org/specializations/asq-certified-six-sigma-green-belt-cssgb-exam-prep",
+        type: "Specialization",
+        duration: "~4 months",
+        star: true,
+        why: "The accreditation pathway for Green Belt. The ASQ CSSGB is the gold standard credential in manufacturing and aerospace — far more recognized by employers than a Coursera certificate alone. Sit the ASQ exam separately (~$300 for ASQ members) after completing this to earn the official CSSGB designation.",
+        skills: ["ASQ CSSGB Exam Prep","DMAIC Framework","DMADV","Statistical Analysis","Process Improvement","Quality Management","Lean Tools"]
       }
     ]
   }
